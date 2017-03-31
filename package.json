@@ -1,0 +1,22 @@
+{
+  "name": "npm-test-blake",
+  "version": "1.0.0",
+  "description": "a test about npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "do test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blake-CN/npm-test.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "blake_mi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blake-CN/npm-test/issues"
+  },
+  "homepage": "https://github.com/Blake-CN/npm-test#readme"
+}
