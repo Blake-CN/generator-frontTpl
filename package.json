@@ -1,22 +1,26 @@
 {
-  "name": "npm-test-blake",
-  "version": "1.0.0",
-  "description": "a test about npm",
+  "name": "generator-frontTpl",
+  "version": "0.2.4",
+  "description": "a tmplate for fe files",
   "main": "index.js",
   "scripts": {
-    "test": "do test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Blake-CN/npm-test.git"
+    "url": ""
   },
-  "keywords": [
-    ""
+  "files": [
+    "generators"
   ],
-  "author": "blake_mi",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Blake",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Blake-CN/npm-test/issues"
-  },
-  "homepage": "https://github.com/Blake-CN/npm-test#readme"
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.0"
+  }
 }

@@ -1,0 +1,83 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true
+  },
+  "globals": {
+    "$": true,
+    "jQuery": true,
+    "__PANDA_GODDESS__": true,
+    "GLOBAL_CONFIG": true,
+    "riot": true,
+    "Tictac": true,
+    "Swiper": true,
+    "FastClick": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "rules": {
+    "strict": 0,
+    "radix": 0,
+    "no-underscore-dangle": 0,
+    "vars-on-top": 1,
+    // if、else、while、for代码块用{}包围
+    "curly": 1,
+    //禁止可能导致结果不明确的逗号操作符
+    "no-sequences": 1,
+    // 缩进
+    "indent": [
+      "error",
+      2
+    ],
+    // 换行风格
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    // 分号
+    "semi": [
+      "error",
+      "always"
+    ],
+    // 前端js不适用es2015字符串模板
+    "prefer-template": 0,
+    // 未编译的情况下前端js不适用short-hand
+    "object-shorthand": 0,
+    // 函数名和左括号之前没有空格， 这样可以和语句使用区分开。
+    "space-before-function-paren": 0,
+    // 前端js不使用es2015的箭头函数
+    "prefer-arrow-callback": 0,
+    // 匿名函数不需要函数名
+    "func-names": 0,
+    "no-useless-escape": 0,
+    "no-param-reassign": 0,
+    "one-var-declaration-per-line": 0,
+    "one-var": 0,
+    // 数组和对象键值对最后一个逗号， never参数：不能带末尾的逗号, always参数：必须带末尾的逗号，
+    "comma-dangle": [
+      1,
+      "never"
+    ],
+    // 逗号前后空格
+    "comma-spacing": [
+      1,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    // 允许使用 console
+    "no-console": 0,
+    "no-var": 0
+  }
+}
