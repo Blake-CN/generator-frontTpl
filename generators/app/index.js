@@ -23,7 +23,7 @@ module.exports = class extends Generator {
       message: `是否要安装到 ${_rootPath} ?`
     },{
       type: 'confirm',
-      name: 'needMsg306',
+      name: 'xxx',
       message: `是否需要xxx npm 包？`
     }]).then((answers) => {
       Object.assign(this.props, answers);
@@ -47,7 +47,7 @@ module.exports = class extends Generator {
   }
   // 安装依赖
   end() {
-    if (this.props.needMsg306) {
+    if (this.props.xxx) {
       this.log(yosay('开始安装依赖^_^'));
       // this.installingNpm(['xxx']);
     } else {
